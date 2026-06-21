@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+
+input{
+    margin: 20px;
+    font-size: large;
+}
+
+button{
+    font-size: large;
+}
+
+div{
+    text-align: left;
+    position: absolute;
+    left: 560px;
+    height: fit-content;
+    margin: 20px;
+}
+li{
+    font-size: 1.25em;
+}
