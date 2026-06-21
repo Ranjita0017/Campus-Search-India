@@ -15,7 +15,7 @@ function showArr(colArr,state) {
     let li = document.querySelector("#list");
     li.innerText="";
     for(col of colArr){
-        if(col['state-province'] == state){
+        if (col["state-province"] && col["state-province"].toLowerCase() === state.toLowerCase()){
             let li = document.createElement("li");
             li.innerText = col.name;
             ul.appendChild(li);
